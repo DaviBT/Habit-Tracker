@@ -1,0 +1,145 @@
+/* colors (from the lighter to the darker) */
+/* blue */
+/* sky500 */
+/* gray */
+/* margin */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.5 linear;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #1E1E1E;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #0EA5E9;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  position: fixed;
+  background-color: rgb(20, 20, 20);
+  width: 100%;
+}
+header button {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #0EA5E9;
+  background-color: transparent;
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+  transition-duration: 0.1s;
+  -webkit-animation: ease-in-out;
+          animation: ease-in-out;
+  align-items: center;
+  line-height: 2rem;
+}
+header button:hover {
+  background-color: #075985;
+  color: #1E1E1E;
+}
+header button span.register {
+  display: none;
+}
+header button .logo {
+  margin: 2rem 7rem 0rem 7rem;
+}
+
+form#formHabits {
+  display: flex;
+  padding-top: 14.5rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+form#formHabits input:hover {
+  border: 1px solid #b9b9c7;
+}
+
+.habits {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+.habit {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.days {
+  display: flex;
+  margin-left: 3rem;
+  gap: 2rem;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.day div {
+  text-align: center;
+  color: #b9b9c7;
+}
+
+input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid #52525B;
+  border-radius: 0.6rem;
+  background-color: #2d2d31;
+}
+input:checked {
+  background-color: #0EA5E9;
+  border-color: #0C4A6E;
+}/*# sourceMappingURL=style.css.map */

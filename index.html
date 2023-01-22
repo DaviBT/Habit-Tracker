@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+
+        <img src="assets/logo.svg" rel="Habits" class="logo">
+
+        <button class="newInfo"><img src="assets/plus.svg" alt="Plus"> <span class="register">Register my day</span></button>
+
+    </header>
+
+    <main>
+
+        <form id="formHabits">
+
+            <div class="habits">
+
+                <div class="habit" data-name="swim"><abbr title="to swim">🏊‍♂️</abbr></div>
+                <div class="habit" data-name="studyRead"><abbr title="to study/read">📘</abbr></div>
+                <div class="habit" data-name="work"><abbr title="to work">💻</abbr></div>
+                <div class="habit" data-name="food"><abbr title="to eat healthy food">🥗</abbr></div>
+                <div class="habit" data-name="cycle"><abbr title="to go cycle">🚴‍♂️</abbr></div>
+                <div class="habit" data-name="sleep"><abbr title="to sleep">💤</abbr></div>
+
+            </div>
+
+            <div class="days"></div>
+
+        </form>
+
+    </main>
+
+<script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script> <!-- cdn library -->
+<script src="scripts/script.js"></script>
+</body>
+</html>
