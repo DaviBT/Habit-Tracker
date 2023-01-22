@@ -39,6 +39,6 @@ This project was created with the following technologies:
 
 - [Access the project online](https://)
 
-## :memo: Licence
+## :memo: License
 
 This project is under the MIT licence.
