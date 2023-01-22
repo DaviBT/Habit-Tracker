@@ -37,7 +37,7 @@ This project was created with the following technologies:
 &nbsp;&nbsp;2023, a brand new year! How about make this year the best of your life? To accomplish that, you must invest in good habits, and control the bad ones. <br/>
 &nbsp;&nbsp;Thinking about that, I created the Habit Tracker, an application that allows you tag and control your habits.
 
-- [Access the project online](https://maykbrito.github.io/devlinks)
+- [Access the project online](https://)
 
 ## :memo: Licence
 
