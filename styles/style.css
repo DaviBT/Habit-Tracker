@@ -23,11 +23,11 @@ html {
 }
 
 html::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.3rem;
 }
 
 ::-webkit-scrollbar:horizontal {
-  height: 0.5rem;
+  height: 0.3rem;
 }
 
 html::-webkit-scrollbar-track {
